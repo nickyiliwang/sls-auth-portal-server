@@ -1,0 +1,13 @@
+# Explicit Allow CRUD for dynamoDB in resource defined
+
+UsersTableIAM:
+  Effect: Allow
+  Action:
+    - dynamodb:PutItem
+    - dynamodb:GetItem
+    - dynamodb:UpdateItem
+    - dynamodb:Query
+    - dynamodb:BatchGet
+    - dynamodb:BatchWriteItem
+  Resource:
+    - ${self:custom.UsersTable.arn}

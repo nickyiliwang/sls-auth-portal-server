@@ -1,0 +1,10 @@
+# Explicit Allow put object on all sub directory in resource defined
+
+# Resource ARN should be the dashboard bucket and space it with /user-profile/* or we create another image bucket
+
+UserBucketIAM:
+  Effect: Allow
+  Action:
+    - s3:PutObject
+  Resource: arn:aws:s3:::${self:custom.UserBucket.name}/*
+

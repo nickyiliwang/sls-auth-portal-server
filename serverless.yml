@@ -1,0 +1,204 @@
+service: petobe-sls-booking
+frameworkVersion: "2"
+
+plugins:
+  - serverless-bundle
+  - serverless-pseudo-parameters
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  profile: petobe
+  apiGateway:
+    shouldStartNameWithService: true
+  stage:
+    ${opt:stage, 'dev'}
+    # setting an .ENV for createTodos and more to use table name in custom
+  environment:
+    USERS_TABLE_NAME: ${self:custom.UsersTable.name}
+    VIDEO_BUCKET_NAME: ${self:custom.VideoBucket.name}
+    VIDEO_BUCKET_ARN: ${self:custom.VideoBucket.arn}
+    USER_BUCKET_NAME: ${self:custom.UserBucket.name}
+  iamRoleStatements:
+    - ${file(iam/UsersTableIAM.yaml):UsersTableIAM}
+    - ${file(iam/UserBucketIAM.yaml):UserBucketIAM}
+
+resources:
+  Resources:
+    UsersTable: ${file(resources/UsersTable.yaml):UsersTable}
+    UserBucket: ${file(resources/UserBucket.yaml):UserBucket}
+    UserBucketPolicy: ${file(resources/UserBucket.yaml):UserBucketPolicy}
+    VideoBucket: ${file(resources/VideoBucket.yaml):VideoBucket}
+    VideoBucketPolicy: ${file(resources/VideoBucket.yaml):VideoBucketPolicy}
+
+functions:
+  # TEST ROUTE
+  updateTest:
+    handler: api/dev/
+
+  # QUERY BY serviceType_subSubServiceType_animalType
+  queryWithParams:
+    handler: api/dev/queryWithParams.handler
+    events:
+      - http:
+          method: POST
+          path: /query/user
+          cors: true
+
+  # CREATE USER
+  createUsers:
+    handler: api/dev/devUploadMultipleMockUsers.handler
+    events:
+      - http:
+          method: POST
+          path: /user/batchCreate
+          cors: true
+
+  # USER PICTURE UPLOAD
+  uploadUserPicture:
+    handler: api/userProfileUpdates/uploadUserProfileImage.handler
+    events:
+      - http:
+          method: POST
+          path: /picture/upload
+          cors: true
+
+  # USER VIDEO UPLOAD
+  s3VideoUploadPresignedUrl:
+    handler: api/dev/s3VideoUploadWithPresignedUrl.handler
+    events:
+      - http:
+          path: /upload/video
+          method: POST
+          cors: true
+
+  # ADDRESS
+  updateAddress:
+    handler: api/userProfileUpdates/updateAddress.handler
+    events:
+      - http:
+          method: POST
+          path: /user/address
+          cors: true
+
+  # PHONE
+  updatePhone:
+    handler: api/userProfileUpdates/updatePhone.handler
+    events:
+      - http:
+          method: POST
+          path: /user/phone
+          cors: true
+
+  # EMAIL
+  updateEmail:
+    handler: api/userProfileUpdates/updateEmail.handler
+    events:
+      - http:
+          method: POST
+          path: /user/email
+          cors: true
+
+  # TAGLINE & DESCRIPTION
+  updateTagAndDescription:
+    handler: api/userProfileUpdates/updateTagAndDescription.handler
+    events:
+      - http:
+          method: POST
+          path: /user/tagAndDesc
+          cors: true
+
+  # MY SERVICES
+  # RATES
+  updateRates:
+    handler: api/myServices/updateRates.handler
+    events:
+      - http:
+          path: /myServices/rates/update
+          method: POST
+          cors: true
+  # EXTRA_SERVICES
+  updateExtraServices:
+    handler: api/myServices/updateExtraServices.handler
+    events:
+      - http:
+          path: /myServices/extraServices/update
+          method: POST
+          cors: true
+  # PREFERENCES
+  updatePreferences:
+    handler: api/myServices/updatePreference.handler
+    events:
+      - http:
+          path: /myServices/preferences/update
+          method: POST
+          cors: true
+  # DATE_AND_TIME
+  updateDateAndTime:
+    handler: api/myServices/updateDateAndTime.handler
+    events:
+      - http:
+          path: /myServices/dateAndTime/update
+          method: POST
+          cors: true
+  # SERVICE_MENU
+  updateServiceMenu:
+    handler: api/myServices/updateServiceMenu.handler
+    events:
+      - http:
+          path: /myServices/serviceMenu/update
+          method: POST
+          cors: true
+  # TRAINING_COURSES
+  updateTrainingCourses:
+    handler: api/myServices/updateTrainingCourses.handler
+    events:
+      - http:
+          path: /myServices/trainingCourses/update
+          method: POST
+          cors: true
+
+  # GET USER
+  getUser:
+    handler: api/getUser.handler
+    events:
+      - http:
+          method: POST
+          # path: /{id}/profile
+          path: /profile
+          cors: true
+
+  # CREATE USER
+  createUser:
+    handler: api/dev/devUploadMockUser.handler
+    events:
+      - http:
+          method: POST
+          path: /user/create
+          cors: true
+
+  # eventBridge is a stateful tool with helping you calling the function at a set rate
+  # events:
+  #   - eventBridge:
+  #     schedule: rate(30 minute)
+
+custom:
+  # When We implement Cognito and need an authorizer attached with an user pool role
+  # authorizer: arn:aws:lambda:#{AWS::Region}:#{AWS::AccountId}:function:auth-service-${self:provider.stage}-auth
+  # For when we need to send out confirmations and notify the users via email or sms
+  # MailQueue:
+  # url: ${cf:notification-service-${self:provider.stage}.MailQueueUrl}
+  UsersTable:
+    # using intrinsic functions during stack creation
+    # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html see: return values
+    # Ref to our logical name
+    name: !Ref UsersTable
+    arn: !GetAtt UsersTable.Arn
+  UserBucket:
+    name: dashboard-user-pictures-petobe-${self:provider.stage}
+  VideoBucket:
+    name: user-videos-petobe-${self:provider.stage}
+    arn: !GetAtt VideoBucket.Arn
+  bundle:
+    linting: false

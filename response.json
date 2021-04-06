@@ -1,0 +1,2130 @@
+{
+  "preferences_grooming_cat": {
+    "excludeBreed": [],
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "preferences_daycare_bird": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "preferences_drop_in_cat": {
+    "spacesAvailable": 0,
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "serviceMenu_kitten": {
+    "bath_brush": true,
+    "enabled": true,
+    "bath_trim": true
+  },
+  "rates_boarding_cat": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_walking_cat": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "phone": "14165550134",
+  "preferences_walking_cat": { "isFlexible": false, "cancellation": null },
+  "extra_services_drop_in_cat": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "rating": 4,
+  "dateAndTime_boarding": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": []
+  },
+  "dateAndTime_grooming": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": [],
+    "times_of_walk": { "private": 0, "group": 0 }
+  },
+  "preferences_boarding_dog": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "extra_services_grooming_puppy": {
+    "shampoo": false,
+    "extra_charge_breed": false,
+    "teeth_and_breath": false,
+    "coat_conditioner": false,
+    "drop_off": false
+  },
+  "rates_grooming_kitten": {
+    "bath_brush": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per 2-4 months dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per 5-7 months dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per 8-10 months dog"
+        }
+      ],
+      "description": "This will be your default price for Bath + Brush"
+    },
+    "bath_trim": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per 2-4 months kitten"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per 5-7 months kitten"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per 8-10 months kitten"
+        }
+      ],
+      "description": "This will be your default price for Bath + Haircut"
+    }
+  },
+  "extra_services_aquarist_freshwater": {
+    "service2": false,
+    "service1": false,
+    "service4": false,
+    "service3": false,
+    "service6": false,
+    "service5": false
+  },
+  "rates_drop_in_bird": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "rates_daycare_small_pets": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per smallPet (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "preferences_drop_in_small_pets": {
+    "spacesAvailable": 0,
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "rates_drop_in_cat": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_boarding_bird": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_boarding_small_pets": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "rates_aquarist_freshwater": {
+    "maintaining_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    },
+    "setting_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    },
+    "package_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    }
+  },
+  "preferences_aquarist_planted_tank": {},
+  "supported_languages": [
+    { "lang": "Simplified Chinese", "code": "zh" },
+    { "lang": "Traditional Chinese", "code": "zh-TW" },
+    { "lang": "English", "code": "en" },
+    { "lang": "Korean", "code": "ko" }
+  ],
+  "rates_daycare_bird": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "email": "Oral60@hotmail.com",
+  "dateAndTime_aquarist": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": []
+  },
+  "extra_services_drop_in_small_pets": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "training_courses_dog": { "private": [], "group": [] },
+  "rates_daycare_dog": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_grooming_cat": {
+    "shampoo": false,
+    "extra_charge_breed": false,
+    "teeth_and_breath": false,
+    "coat_conditioner": false,
+    "drop_off": false
+  },
+  "extra_services_daycare_cat": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_boarding_bird": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "rates_drop_in_small_pets": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per smallPet (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_daycare_reptile": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "serviceMenu_cat": {
+    "bath_hair_cut": true,
+    "bath_brush": true,
+    "enabled": true,
+    "bath_trim": true
+  },
+  "extra_services_aquarist_saltwater": {
+    "service2": false,
+    "service1": false,
+    "service4": false,
+    "service3": false,
+    "service6": false,
+    "service5": false
+  },
+  "preferences_drop_in_bird": {
+    "spacesAvailable": 0,
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "rates_boarding_bird": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "preferences_aquarist_saltwater": {},
+  "rates_aquarist_saltwater": {
+    "maintaining_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    },
+    "setting_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    },
+    "package_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    }
+  },
+  "preferences_daycare_cat": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "preferences_boarding_reptile": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "training_courses_bird": { "private": [], "group": [] },
+  "preferences_daycare_reptile": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "rates_grooming_cat": {
+    "bath_haircut": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per Short Hair Cat"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per Long Hair Cat"
+        }
+      ],
+      "description": "This will be your default price for Bath + Haircut"
+    },
+    "bath_brush": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per Short Hair Cat"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per Long Hair Cat"
+        }
+      ],
+      "description": "This will be your default price for Bath + Haircut"
+    },
+    "bath_trim": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per Short Hair Cat"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per Long Hair Cat"
+        }
+      ],
+      "description": "This will be your default price for Bath + Haircut"
+    }
+  },
+  "rates_boarding_reptile": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "rates_walking_bird": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per bird" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_drop_in_dog": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "dateAndTime_walking": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": [],
+    "times_of_walk": { "private": 0, "group": 0 }
+  },
+  "extra_services_walking_dog": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_grooming_puppy": {
+    "excludeBreed": [],
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "reviews": 491,
+  "country": "Canada",
+  "rates_walking_reptile": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_drop_in_bird": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "userId": "5eb15b87-bbfc-4b6f-9874-159e557bf4d8",
+  "preferences_grooming_dog": {
+    "excludeBreed": [],
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "rates_daycare_reptile": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "preferences_drop_in_dog": {
+    "spacesAvailable": 0,
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "rates_boarding_small_pets": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per smallPet (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "rates_walking_dog": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "rates_drop_in_dog": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_daycare_bird": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "training_courses_cat": { "private": [], "group": [] },
+  "preferences_boarding_cat": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "createdAt": "2021-03-08T16:29:50.609Z",
+  "rates_drop_in_reptile": {
+    "holiday": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        { "per": "/night", "value": 35, "price": "35", "option": "Per Turtle" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Lizard" },
+        { "per": "/night", "value": 40, "price": "40", "option": "Per Snake" }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "rates_grooming_puppy": {
+    "bath_brush": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per 2-4 months dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per 5-7 months dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per 8-10 months dog"
+        }
+      ],
+      "description": "This will be your default price for Bath + Brush"
+    },
+    "bath_trim": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per 2-4 months dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per 5-7 months dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per 8-10 months dog"
+        }
+      ],
+      "description": "This will be your default price for Bath + Haircut"
+    }
+  },
+  "dateAndTime_drop_in": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": []
+  },
+  "address": "500 Kingston Rd Toronto ON M4L",
+  "extra_services_boarding_cat": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_aquarist_freshwater": {},
+  "extra_services_aquarist_planted_tank": {
+    "service2": false,
+    "service1": false,
+    "service4": false,
+    "service3": false,
+    "service6": false,
+    "service5": false
+  },
+  "extra_services_boarding_small_pets": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "username": "Abner94",
+  "extra_services_daycare_small_pets": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_walking_dog": { "isFlexible": false, "cancellation": null },
+  "description": "A highly motivated and hardworking individual, who has recently completed their A-Levels, achieving excellent grades in both Maths and Science. Seeking an apprenticeship in the engineering industry to build upon a keen scientific interest and start a career as a maintenance engineer. Eventual career goal is to become a fully-qualified and experienced maintenance or electrical engineer, with the longer-term aspiration of moving into project management.",
+  "serviceMenu_puppy": {
+    "bath_brush": true,
+    "enabled": true,
+    "bath_trim": true
+  },
+  "extra_services_boarding_reptile": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "extra_services_boarding_dog": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "rates_walking_cat": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "pictureUrl": "",
+  "preferences_drop_in_reptile": {
+    "spacesAvailable": 0,
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "geolocation": [43.63604690387745, -79.33952613931004],
+  "city": "Toronto",
+  "rates_grooming_dog": {
+    "bath_haircut": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per Small Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per Medium Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per Large Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "25",
+          "option": "Per XLarge Dog"
+        }
+      ],
+      "description": "This will be your default price for Bath + Haircut"
+    },
+    "bath_brush": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per Small Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per Medium Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per Large Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "25",
+          "option": "Per XLarge Dog"
+        }
+      ],
+      "description": "This will be your default price for Bath + Brush"
+    },
+    "bath_trim": {
+      "controlPanel": [
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "12",
+          "option": "Per Small Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "15",
+          "option": "Per Medium Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "20",
+          "option": "Per Large Dog"
+        },
+        {
+          "per": "/1time",
+          "value": 15,
+          "price": "25",
+          "option": "Per XLarge Dog"
+        }
+      ],
+      "description": "This will be your default price for Bath + Trim"
+    }
+  },
+  "dateAndTime_training": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": []
+  },
+  "preferences_grooming_kitten": {
+    "excludeBreed": [],
+    "isFlexible": false,
+    "cancellation": null
+  },
+  "extra_services_walking_reptile": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_daycare_small_pets": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "serviceMenu_dog": {
+    "bath_hair_cut": true,
+    "bath_brush": true,
+    "enabled": true,
+    "bath_trim": true
+  },
+  "postcode": "M5A0B9",
+  "dateAndTime_daycare": {
+    "work_hour": {
+      "checkOut": "01:00:00",
+      "checkIn": "00:00:00",
+      "isReserveAllowed": true
+    },
+    "length_of_stay": { "max": 1, "min": 1, "isReserveAllowed": true },
+    "in_advance": 12,
+    "work_availability": []
+  },
+  "extra_services_drop_in_reptile": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "extra_services_daycare_dog": {
+    "pick_up": false,
+    "drop_off": false,
+    "bathing": false,
+    "walking": false,
+    "trim_brush": false
+  },
+  "preferences_daycare_dog": {
+    "isSharingSpace": false,
+    "spacesAvailable": 0,
+    "petPair": null,
+    "isFlexible": false,
+    "cancellation": null,
+    "petSize": null,
+    "pottyBreak": null
+  },
+  "tagline": "I am pretty cool!",
+  "rates_boarding_dog": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "extra_services_grooming_kitten": {
+    "shampoo": false,
+    "extra_charge_breed": false,
+    "teeth_and_breath": false,
+    "coat_conditioner": false,
+    "drop_off": false
+  },
+  "rates_walking_small_pets": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Dog (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Puppy (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Dog (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per smallPet (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per smallPet (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  },
+  "rates_aquarist_planted_tank": {
+    "maintaining_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    },
+    "setting_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    },
+    "package_rate": {
+      "controlPanel": [
+        {
+          "per": "/setting",
+          "value": 40,
+          "price": "40",
+          "option": "Small tank (<10L)"
+        },
+        {
+          "per": "/setting",
+          "value": 50,
+          "price": "50",
+          "option": "Medium tank (11-20L)"
+        },
+        {
+          "per": "/setting",
+          "value": 60,
+          "price": "60",
+          "option": "Large tank (21-30L)"
+        }
+      ],
+      "description": "This will be your default price tank"
+    }
+  },
+  "preferences_walking_reptile": { "isFlexible": false, "cancellation": null },
+  "extra_services_grooming_dog": {
+    "shampoo": false,
+    "extra_charge_breed": false,
+    "teeth_and_breath": false,
+    "coat_conditioner": false,
+    "drop_off": false
+  },
+  "rates_daycare_cat": {
+    "holiday": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "If demand is high when holidays, What’s the price you’re willing to charge?"
+    },
+    "regular": {
+      "controlPanel": [
+        {
+          "per": "/night",
+          "value": 35,
+          "price": "35",
+          "option": "Per Cat (1 year+)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Kitten (<1 year)"
+        },
+        {
+          "per": "/night",
+          "value": 40,
+          "price": "40",
+          "option": "Per Senior Cat (10years+)"
+        }
+      ],
+      "description": "This will be your default price for night"
+    },
+    "length_of_stay": {
+      "controlPanel": [
+        {
+          "length": "7 to 27 nights",
+          "per": "% off",
+          "value": 12,
+          "price": "12",
+          "option": "Weekly discount"
+        },
+        {
+          "length": "After 27 nights",
+          "per": "% off",
+          "value": 15,
+          "price": "15",
+          "option": "Monthly discount"
+        },
+        {
+          "length": "Repeat weekly",
+          "per": "% off",
+          "value": 20,
+          "price": "20",
+          "option": "Subscribe discount"
+        }
+      ],
+      "description": "Encourage pet lover to book longer stays by offering a discount."
+    }
+  }
+}
